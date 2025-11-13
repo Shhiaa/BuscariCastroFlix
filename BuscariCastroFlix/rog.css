@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: linear-gradient(9deg, #ffc600, #170420);
+    background-image: linear-gradient(-15deg, #ffc600, #170420);
     color: white;
     font-family: 'Poppins', Arial, sans-serif;
     line-height: 1.6;
@@ -66,7 +66,7 @@ body {
 
 
 .secao h2 {
-    color: #360250;
+    color: rgba(38, 9, 60, 0.6);
     margin-bottom: 15px;
     text-align: center;
 }

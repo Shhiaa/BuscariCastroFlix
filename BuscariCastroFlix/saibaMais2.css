@@ -23,8 +23,8 @@ header h1 {
   margin: 0;
   font-size: 1.8rem;
   letter-spacing: 2px;
-  color: #00bfff;
-  text-shadow: 0 0 10px rgba(0, 191, 255, 0.6);
+  color: #eaff00;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
 }
 
 main {

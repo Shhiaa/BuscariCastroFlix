@@ -1,0 +1,167 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(-111deg, #ffc600, #170420);
+}
+
+html {
+    background-color: black;
+}
+
+a {
+    color: rgb(170, 74, 226);
+}
+
+a:visited {
+    color: rgb(142, 75, 229);
+}
+
+body {
+    background-image: url(/Imagens/stars.gif);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+#banner {
+    width: 100%;
+    overflow: hidden;
+}
+
+hr {
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+#banner img {
+    width: 100%;
+    object-fit: cover;
+}
+
+#apresentacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+}
+
+#apresentacao .titulo {
+    font-size: xx-large;
+    align-items: center;
+    width: 90%;
+    background-color: rgb(65, 45, 103);
+    border: 3px solid rgb(154, 121, 218);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.conteudo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 50px;
+}
+
+#minhaFoto {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid rgb(93, 68, 139);
+    object-fit: cover;
+}
+
+.fundo {
+    background-color: rgb(65, 45, 103);
+    border: 3px solid rgb(154, 121, 218);
+    color: white;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+}
+
+.texto ol {
+    margin: 0;
+    padding-left: 20px;
+    line-height: 1.6;
+}
+#lugares .titulo {
+    font-size: xx-large;
+    align-items: center;
+    width: 85%;
+    margin-left: 100px;
+    background-color: rgb(65, 45, 103);
+    border: 3px solid rgb(154, 121, 218);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+#jogos {
+    text-align: center;
+    padding: 40px;
+}
+
+#jogos .titulo {
+    font-size: xx-large;
+    align-items: center;
+    width: 90%;
+    margin-left: 70px;
+    background-color: rgb(65, 45, 103);
+    border: 3px solid rgb(154, 121, 218);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.galeria img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 3px solid rgb(154, 121, 218);
+    border-radius: 10px;
+    transition: 0.1s;
+}
+
+.galeria img:hover {
+    scale: 1.2;
+}
+
+#filmes .titulo {
+    font-size: xx-large;
+    align-items: center;
+    width: 85%;
+    margin-left: 100px;
+    background-color: rgb(65, 45, 103);
+    border: 3px solid rgb(154, 121, 218);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    padding: 0;
+    margin: 0;
+}
+
+footer  {
+    align-items: center;
+    height: 20%;
+    bottom: 0;
+    padding: .7em;
+    background-color: rgb(65, 45, 103);
+    border-top: 3px solid rgb(154, 121, 218);
+    color: white;
+    text-align: center;
+    margin-top: 2em;
+}
