@@ -1,7 +1,7 @@
 html, body {
     padding: 0;
     margin: 0;
-    background-image: linear-gradient(-111deg, #ffc600, #170420);
+    
 }
 
 html {
@@ -17,7 +17,7 @@ a:visited {
 }
 
 body {
-    background-image: url(/Imagens/stars.gif);
+    background-image: url("imagens - soph/stars.gif");
     background-size: cover;
     background-position: center;
     color: white;
