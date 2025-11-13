@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    background-color: #170420;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(15, 15, 15)
+}
+h1{
+    text-align: center;
+    color: #ffc600;
+}
+h2 {
+    margin-left: 50px;
+    color: #f2be04;
+}
+#logo img {
+    width: 100px;
+}
+#perfil  img {
+    width: 100px;
+}
+#busca {
+    flex: 1;
+    border-radius: 50%;
+}
+#busca form {
+    flex: 1;
+    margin: 0 20px;
+}
+#busca input {
+    display: flex;
+    align-items: center;
+    background-color: #ffc600;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 2px solid rgb(99, 99, 99);
+}
+
+#busca input {
+    flex: 1;
+    background-color: transparent;
+    padding: 5px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+#busca button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 4px;
+}
+
+.filmes-section {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.filme {
+    background-color: rgb(23, 23, 23);
+    padding: 10px;
+    border-radius: 12px;
+    width: 240px;
+    text-align: center;
+  
+}
+.filme img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+.filme a {
+    color: #7a8207;
+    text-decoration: none;
+}
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    margin-left: 20px 0 10px 20px;
+}
+.filme:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px coral;
+    transition: 500ms;
+}
+footer {
+  background-color: #170420;
+  color: #fff;
+  text-align: center;
+  padding: 30px 10px;
+  margin-top: 50px;
+  border-top: 2px solid  #ffc600;
+  box-shadow: 0 -2px 15px rgba(0, 191, 255, 0.2);
+}
+
+footer .criadores {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
